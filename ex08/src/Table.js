@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 const TableHeader = () => {
   return (
     <thead>
@@ -11,7 +11,7 @@ const TableHeader = () => {
 };
 const TableBody = (props) => {
   const rows = props.characterData.map((row, index) => {
-    return(
+    return (
       <tr key={index}>
         <td>{row.firstName}</td>
         <td>{row.lastName}</td>
@@ -19,15 +19,15 @@ const TableBody = (props) => {
     );
   });
   return <tbody>{rows}</tbody>;
-     }
+};
 
 class Table extends Component {
   render() {
-    const {characterData} = this.props;
+    const { characterData } = this.props;
     return (
       <table>
         <TableHeader />
-        <TableBody  characterData={characterData}/>
+        <TableBody characterData={characterData} />
       </table>
     );
   }

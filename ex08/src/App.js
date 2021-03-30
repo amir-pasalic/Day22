@@ -1,26 +1,26 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import Table from './Table';
 
 class App extends Component {
   render() {
     const characters = [
       {
-        firstName: 'Lary',
-        lastName:  'Page',
+        firstName: "Lary",
+        lastName: "Page",
       },
       {
-        firstName: 'Ada',
-        lastName:  'Lovelace',
+        firstName: "Ada",
+        lastName: "Lovelace",
       },
       {
-        firstName: 'Alan',
-        lastName:  'Turing',
+        firstName: "Alan",
+        lastName: "Turing",
       },
-    ]
+    ];
     return (
       <div className="container">
-       <Table  characterData={characters} />
-     </div>
+        <Table characterData={characters} />
+      </div>
     );
   }
 }

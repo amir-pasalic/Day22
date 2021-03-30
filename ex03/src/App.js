@@ -1,4 +1,3 @@
-
 import './App.css';
 import Plant from './Plant';
 

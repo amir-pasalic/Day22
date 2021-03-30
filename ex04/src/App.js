@@ -1,11 +1,8 @@
-
 import './App.css';
 import Box from './Box';
 
 function App() {
-  return (
-    <Box />
-  );
+  return <Box />;
 }
 
 export default App;

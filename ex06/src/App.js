@@ -1,6 +1,5 @@
-
-import "./App.css";
-import Plant from "./Plant";
+import './App.css';
+import Plant from './Plant';
 
 function App() {
   return (
